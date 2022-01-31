@@ -14,21 +14,12 @@
       </div>
       <nav class="hidden md:flex space-x-10">
 
-        <a href="/services" class="text-base font-medium text-gray-500 hover:text-gray-900">
-          Services
+        {% for item in site.data.navigation %}
+        <a href="{{item.url}}" class="text-base font-medium text-gray-500 hover:text-gray-900">
+          {{item.title}}
         </a>
+        {% endfor %}
 
-        <a href="/products" class="text-base font-medium text-gray-500 hover:text-gray-900">
-          Products
-        </a>
-
-        <a href="/reference" class="text-base font-medium text-gray-500 hover:text-gray-900">
-          Reference
-        </a>
-
-        <a href="/contact" class="text-base font-medium text-gray-500 hover:text-gray-900">
-          Contact
-        </a>
       </nav>
       <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
         <a href="#" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">

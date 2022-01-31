@@ -1,0 +1,24 @@
+- name: Content Management System
+  description: No more databases, comment moderation, or pesky updates to install—just your content.
+  features: 
+    - multilangage
+    - database
+    - update content
+    - reviced contact
+    - subscribe
+- name: Online Ordering System
+  description: No more databases, comment moderation, or pesky updates to install—just your content.
+  features: 
+    - multilangage
+    - database
+    - update content
+    - reviced contact
+    - subscribe
+- name: Online Shop Platform
+  description: No more databases, comment moderation, or pesky updates to install—just your content.
+  features: 
+    - multilangage
+    - database
+    - update content
+    - reviced contact
+    - subscribe
